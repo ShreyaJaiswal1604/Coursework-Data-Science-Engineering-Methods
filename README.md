@@ -1,4 +1,5 @@
-### Coursework-Data-Science-Engineering-Methods
+
+<h2> Coursework-Data-Science-Engineering-Methods</h2>
 This course introduces the fundamental techniques for data science engineering and machine learning.
 <hr>
 <h3> COURSEWORK </h3>
