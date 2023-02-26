@@ -28,4 +28,16 @@ Concepts covered:
 <a href="https://github.com/ShreyaJaiswal1604/Coursework-Data-Science-Engineering-Methods/tree/main/AutoML">
 <img src="https://github.com/ShreyaJaiswal1604/Coursework-Data-Science-Engineering-Methods/blob/main/github-mark.png" />Open Project On Github</a>
 <hr>
+Concepts covered:
+<ol>
+<li> LIFE EXPECTANCY PREDICTION WITH H2O AUTOML </li>
+<li> CLEANING THE DATA COLUMNS NAMES</li>
+<li> EXPLORATORY DATA ANALYSIS (EDA)</li>
+<li> DATA PREPROCESSING </li>
+<li> DATA VISUALIZATION WITH DATAPREP</li>
+<li>MODEL EVALUATION</li>
+<li> MODEL EXPLAINABILITY IN AUTOML H2O</li>
+  
+<hr>
+
 
