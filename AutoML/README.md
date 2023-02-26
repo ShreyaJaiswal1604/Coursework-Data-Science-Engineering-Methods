@@ -1,4 +1,4 @@
-# Life Expectancy Regression ML
+# Life Expectancy H20 AutoML
 
 
 <a href="https://githubtocolab.com/ShreyaJaiswal1604/Coursework-Data-Science-Engineering-Methods/blob/main/AutoML/Life_Expectancy_H2O_AutoML.ipynb">
