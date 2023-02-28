@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Life Expectancy Regression ML
 
 
@@ -125,6 +126,8 @@ The columns are as followed
 </ul>
 <hr>
 =======
+=======
+>>>>>>> 89018f072d97fe8a5536d80b3b3dd750eb2288ad
 # Life Expectancy H20 AutoML
 
 
@@ -333,4 +336,7 @@ https://medium.com/mlearning-ai/life-expectancy-prediction-with-h2o-automl-91a36
 
 
 
+<<<<<<< HEAD
+>>>>>>> 89018f072d97fe8a5536d80b3b3dd750eb2288ad
+=======
 >>>>>>> 89018f072d97fe8a5536d80b3b3dd750eb2288ad
