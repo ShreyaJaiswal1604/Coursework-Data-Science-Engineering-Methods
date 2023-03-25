@@ -1,8 +1,7 @@
 # Life Expectancy H20 AutoML
 
-
-<a href="https://githubtocolab.com/ShreyaJaiswal1604/Coursework-Data-Science-Engineering-Methods/blob/main/AutoML/Life_Expectancy_Using_H2O_AutoML%20.ipynb">
-<img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run AutoML H20 in Google Colab</a>
+<a href="https://githubtocolab.com/ShreyaJaiswal1604/Coursework-Data-Science-Engineering-Methods/blob/main/Model-Interpretability/Life_Expectancy_Model_Prediction.ipynb">
+<img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run Model Interpretability in Google Colab</a>
 
 
 
