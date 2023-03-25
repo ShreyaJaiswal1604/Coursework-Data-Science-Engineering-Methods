@@ -8,27 +8,25 @@
 
 <hr>
 <h3> ABSTRACT</h3>
-
-> **Automated Machine Learning (AutoML)** is the process of automating tasks in the machine learning pipeline such as 
-> 1.   data preprocessing
-> 2.   hyperparameter tuning
-> 3. model selection and evaluation
-
-> H2O AutoML trains and cross validates the following models:
-> <ol>
-> <li>Three pre-specified XGBoost GBM (Gradient Boosting Machine) models</li>
-> <li>Fixed grid of GLMs (Generalized Linear Model)
-> <li>Default Random Forest (DRF)
-> <li>5 pre-specified H2O GBMs
-> <li>Near-default Deep Neural Net
-> <li>Extremely Randomized Forest (XRT)
-> <li>Random grid of XGBoost GBMs
-> <li>Random grid of H2O GBMs
-> <li>Random grid of Deep Neural Nets
-> <li>Multiple Stacked Ensemble models will also be trained throughout the process
-> </ol>
-
 <hr>
+
+
+### **MODEL INTERPRETABILITY**
+
+
+---
+
+>Model interpretability in machine learning refers to the ability to explain how a machine learning model works and how it makes its predictions. It is an important aspect of machine learning, especially when the model is used in real-world applications where it is crucial to understand the factors that are driving the model's decisions.
+
+> Model interpretability can help to increase trust in the model, as it provides insight into how the model is making predictions. This is particularly important in areas such as healthcare, where decisions based on machine learning models can have a significant impact on people's lives.
+
+> There are various techniques and tools available for model interpretability, including:
+
+> 1. **Feature importance:** This technique identifies the most important features that contribute to the model's predictions.
+> 2. **Partial dependence plots:** This technique shows the relationship between a target variable and a feature while holding all other features constant.
+> 3. **SHAP (SHapley Additive exPlanations):** This technique is a game-theoretic approach to explain the output of any machine learning model.
+> 4.**LIME (Local Interpretable Model-agnostic Explanations):** This technique explains individual predictions by approximating the model locally with a simpler model.
+> 5.**Decision trees:** These are a simple and interpretable model that can be used to explain how the model makes its predictions.
 <h3> PROJECT OVERVIEW</h3>
   
 
@@ -95,6 +93,10 @@
 ---
 
 
+
+---
+
+
 ### **CONCLUSION**
 
 ---
@@ -106,16 +108,63 @@
 
 *   The dataset consisted of null values for which Imputation methods have been performed and further analysis of the result has been made
 
-*   The dataset has been analysed by H2O AutoML.
+*   Life Expectancy has been predicted using linear model.
 
-*   ThE models have been compared using H2O AutoML
+*   Life Expectancy has been predicted using tree model.
 
-*   Reports were generated using DataPrep Library.
+*   Life Expectancy has been predicted using AutoML.
 
-*   Post normalization we split the dataset into training and testing and further compared both to make sure that the data across all the features are evenly distributed for the training and the testing dataset
+*   SHAP values have been used to compare and validate the model resullt
 
 
 *   We further obtained the statistical measures and obtained the MSE, Variance and percentage error etc.
+
+
+
+
+
+---
+### **REFERENCES**
+
+---
+
+
+*  Scikit learn Documentation
+*  Plotly Documentation
+*  Referred Analytics Vidhya Articles
+*  Referred Towards Data Science Articles
+* Referred Kaggle Notebooks
+
+https://www.youtube.com/watch?v=WuuyD3Yr-js
+
+https://www.youtube.com/watch?v=Q-TtIPF0fCU
+
+https://www.youtube.com/watch?v=YE7E27-
+
+Pycaret
+
+https://www.youtube.com/watch?v=NbBoZQZ3bxo
+
+https://www.youtube.com/watch?v=NbBoZQZ3bxo
+
+https://www.youtube.com/watch?v=NbBoZQZ3bxo
+
+https://www.kaggle.com/code/baotramduong/life-expectancy-prediction-with-h2o-automl/notebook
+
+https://www.who.int/data/gho/data/themes/mortality-and-global-health-estimates/ghe-life-expectancy-and-healthy-life-expectancy
+
+https://towardsdatascience.com/automated-machine-learning-with-h2o-258a2f3a203f
+
+https://medium.com/mlearning-ai/life-expectancy-prediction-with-h2o-automl-91a36b4b06d2
+
+
+
+*  Topic specific refernces have been attached throughout the notebook for better understanding. The functions defined for ploting the residual graphs and finding the statistical measures has been written by me. 
+*  It is very important to understand the concept and the terms before the impelentation of the same, Therefore I have defined the topic terms before their implementaion so that it would lead to a better understanding.
+
+---
+
+
 
 
 
