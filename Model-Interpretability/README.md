@@ -1,6 +1,6 @@
 # Life Expectancy - Model Interpretability
 
-<a href="https://colab.research.google.com/drive/1CXLCLrwaLJGzGA7rxJrsCsz0sdhlEkOK#scrollTo=OO37SRxhOsql">
+<a href="https://colab.research.google.com/drive/1CXLCLrwaLJGzGA7rxJrsCsz0sdhlEkOK?usp=sharing">
 <img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run Model Interpretability in Google Colab</a>
 
 
