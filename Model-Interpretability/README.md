@@ -1,6 +1,6 @@
 # Life Expectancy - Model Interpretability
 
-<a href="https://githubtocolab.com/ShreyaJaiswal1604/Coursework-Data-Science-Engineering-Methods/blob/main/Model-Interpretability/Life_Expectancy_Model_Prediction.ipynb">
+<a href="https://colab.research.google.com/drive/1CXLCLrwaLJGzGA7rxJrsCsz0sdhlEkOK#scrollTo=OO37SRxhOsql">
 <img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run Model Interpretability in Google Colab</a>
 
 
