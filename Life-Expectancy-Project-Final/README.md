@@ -1,12 +1,12 @@
 # Life Expectancy Regression ML
 
 
-<a href="https://githubtocolab.com/ShreyaJaiswal1604/Coursework-Data-Science-Engineering-Methods/blob/main/ML%20Data%20Cleaning%20and%20Feature%20Selection/Life_Expectancy_Regression_ML.ipynb">
+<a href="https://githubtocolab.com/ShreyaJaiswal1604/Coursework-Data-Science-Engineering-Methods/blob/main/Life-Expectancy-Project-Final/Life_Expectancy_Data_Cleaning_Feature_Selection_Modeling_Interpretability.ipynb">
 <img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run in Google Colab</a>
 <hr>
 <h3> ABSTRACT</h3>
 
-A Linear Regression Model has been designed to find the Life Expectancy based on factors such as adult mortality, schooling, health state of different countries categorised as developed or developing. Life Expectancy in today's world depends on various factors and is extremely important in determining human developments in every field. This project aims to perform the basic analysis on the WHO dataset to understand the basic concept behind ML Data Cleaning and Feature Selection.
+A Linear Regression Model has been designed to find Life Expectancy based on factors such as adult mortality, schooling, health state of different countries categorised as developed or developing. Life Expectancy in today's world depends on various factors and is extremely important in determining human development in every field. This project aims to perform the basic analysis on the WHO dataset to understand the basic concept behind ML Data Cleaning and Feature Selection.
 <hr>
 <h3> PROJECT OVERVIEW</h3>
 The project aims to perform Exploratory Data Analysis (EDA) on the WHO dataset and implement linear regression model to predict the Life Expectancy.
@@ -91,15 +91,55 @@ The columns are as followed
 </ol>
 <hr>
 <h3> CONCLUSION </h3>
-<ul>
-<li>In the Life Expectancy WHO dataset we have both numerical and categorical data</li>
-<li>For this Linear Regression analysis we have taken one categorical column status as we are interested in wether the countries are Developed or Developing</li>
-<li>The dataset consisted of null values for which Imputation methods have been performed and further analysis of the result has been made</li>
-<li>The dataset also consists of Outliers which have been analysed using boxplot and appropriate methods have been performed to remove majority of the outliers</li>
-<li>We also performed one hot encoding and various feature selection to otain the statistical measures such as the t-value, p-value</li>
-<li>As the scale of the features were different, further normalization was performed on the dataset before btraining and testing the model.</li>
-<li>Post normalization we split the dataset into training and testing and further compared both to make sure that the data across all the features are evenly distributed for the training and the testing dataset</li>
-<li>We further obtained the statistical measures and obtained the MSE, Variance and percentage error etc.</li>
+
+*   In the Life Expectancy WHO dataset we have both numerical and categorical data
+
+*   For this Linear Regression analysis we have taken one categorical column status as we are interested in wether the countries are Developed or Developing
+
+*   The dataset consisted of null values for which Imputation methods have been performed and further analysis of the result has been made
+
+*   The dataset also consists of Outliers which have been analyzed using boxplot and appropriate methods have been performed to remove the majority of the outliers
+
+*   We also performed one hot encoding and various feature selection to obtain the statistical measures such as the t-value, p-value
+
+*   As the features' scale differed, further normalization was performed on the dataset before training and testing the model.
+
+*   Post normalization we split the dataset into training and testing and further compared both to make sure that the data across all the features are evenly distributed for the training and the testing dataset
+
+*   We further obtained the statistical measures and the MSE, variance, percentage error, etc.
+
+*   In the Life Expectancy WHO dataset we have both numerical and categorical data
+
+*   For this Linear Regression analysis we have taken one categorical column status as we are interested in whether the countries are Developed or Developing
+
+*   The dataset consisted of null values for which Imputation methods have been performed and further analysis of the result has been made
+
+*   The dataset has been analyzed by H2O AutoML.
+
+*   The models have been compared using H2O AutoML
+
+*   Reports were generated using DataPrep Library.
+
+*   Post normalization we split the dataset into training and testing and further compared both to make sure that the data across all the features are evenly distributed for the training and the testing dataset
+
+*   We further obtained the statistical measures and the MSE, variance, percentage error, etc.
+
+*   In the Life Expectancy WHO dataset we have both numerical and categorical data
+
+*   For this Linear Regression analysis we have taken one categorical column status as we are interested in whether the countries are Developed or Developing
+
+*   The dataset consisted of null values for which Imputation methods have been performed and further analysis of the result has been made
+
+*   Life Expectancy has been predicted using a linear model.
+
+*   Life Expectancy has been predicted using the tree model.
+
+*   Life Expectancy has been predicted using AutoML.
+
+*   SHAP values have been used to compare and validate the model results
+
+
+*   We further obtained the statistical measures and the MSE, variance, percentage error, etc.
 
 <hr>
 <h3> REFERENCES </h3>
