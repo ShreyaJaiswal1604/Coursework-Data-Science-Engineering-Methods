@@ -1,44 +1,34 @@
 ---
 
 
-## **Predicting Life Expectancy and Health Insurance Linear Regression**
-#####**Crash Course in Statistical Learning:Linear Regression Worked Examples**
----
-**Shreya Jaiswal** 
+<h2><b>Predicting Life Expectancy and Health Insurance Linear Regression</h2></b>
+<h3><b>Crash Course in Statistical Learning:Linear Regression Worked Examples<h3></b>
+<hr>
+ 
+<b>Shreya Jaiswal</b>
 
----
+<hr>
 
 <a href="https://colab.research.google.com/drive/1CXLCLrwaLJGzGA7rxJrsCsz0sdhlEkOK?usp=sharing">
 <img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run in Google Colab</a>
+<hr>
+<b>ABSTRACT</b>
 
+<hr>
+ 
+<ol>
+<li>This study aimed to predict life expectancy and health insurance charges using linear regression on a dataset of demographic, lifestyle, and medical factors. The dataset contained information on over 1300 individuals and included features such as age, BMI, smoking status, region, and other health indicators</li>
 
----
+<li>First, the data was preprocessed by removing missing values, encoding categorical variables, and scaling numerical features. Next, two separate linear regression models were trained to predict life expectancy and health insurance charges, respectively. The models were evaluated using metrics such as mean squared error, R-squared, and p-values to determine their accuracy and statistical significance</li>
 
----
+<li>Overall, the findings suggest that linear regression can be an effective method for predicting life expectancy and health insurance charges based on demographic and health-related factors. The study has implications for healthcare policy and insurance pricing, as well as for individuals seeking to understand and manage their health risks</li>
 
+<hr>
+ 
 
-
-
----
----
->**ABSTRACT**
-
-
----
----
->This study aimed to predict life expectancy and health insurance charges using linear regression on a dataset of demographic, lifestyle, and medical factors. The dataset contained information on over 1300 individuals and included features such as age, BMI, smoking status, region, and other health indicators.
-
->First, the data was preprocessed by removing missing values, encoding categorical variables, and scaling numerical features. Next, two separate linear regression models were trained to predict life expectancy and health insurance charges, respectively. The models were evaluated using metrics such as mean squared error, R-squared, and p-values to determine their accuracy and statistical significance.
-
->Overall, the findings suggest that linear regression can be an effective method for predicting life expectancy and health insurance charges based on demographic and health-related factors. The study has implications for healthcare policy and insurance pricing, as well as for individuals seeking to understand and manage their health risks.
-
-
----
----
-
-### **CONCLUSION**
----
----
+<h2><b>CONCLUSION</h2></b>
+<hr>
+ 
 
 
 
@@ -107,12 +97,12 @@
 
 
 
----
----
-###**REFERENCES**
+<hr>
+ 
+**REFERENCES**
 
----
----
+<hr>
+ 
 
 *  Scikit learn Documentation
 *  Plotly Documentation
