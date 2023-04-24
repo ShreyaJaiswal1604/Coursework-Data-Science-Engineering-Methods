@@ -2,7 +2,7 @@
 
 
 <h2><b>Predicting Life Expectancy and Health Insurance Linear Regression</h2></b>
-<h3><b>Crash Course in Statistical Learning:Linear Regression Worked Examples<h3></b>
+<h3><b>Crash Course in Statistical Learning:Linear Regression Worked Examples</h3></b>
 <hr>
  
 <b>Shreya Jaiswal</b>
