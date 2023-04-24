@@ -5,7 +5,7 @@
 ---
 
 <a href="https://githubtocolab.com/ShreyaJaiswal1604/Coursework-Data-Science-Engineering-Methods/blob/main/Statitical-Learning-Written-Section/Regression_Project_on_predicting_life_expectancy_using_WHO_dataset.ipynb">
-<img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run Model Interpretability in Google Colab</a>
+<img src="https://www.tensorflow.org/images/colab_logo_32px.png" />Run in Google Colab</a>
 
 
 ---
