@@ -1,6 +1,6 @@
-### **REGRESSION PROJECT ON PREDICTING LIFE EXPECTANCY USING WHO DATASET**
-#####**Statistical Learning Written Section**
-**Shreya Jaiswal** 
+<h2><b>REGRESSION PROJECT ON PREDICTING LIFE EXPECTANCY USING WHO DATASET</h2></b>
+<h3><b>Statistical Learning Written Section</h3></b>
+<b>Shreya Jaiswal</b>
 
 ---
 
@@ -14,25 +14,24 @@
 
 
 
-> ### **ABSTRACT**
+<b>ABSTRACT</b>
 
 
 ---
 
+> This study aimed to predict life expectancy using a dataset compiled by the World Health Organization (WHO). The dataset contained information on over 200 countries and included features such as healthcare spending, GDP, education, and other social and economic indicators.
+
+> The data was preprocessed by removing missing values, encoding categorical variables, and scaling numerical features. A linear regression model was then trained to predict life expectancy based on the selected features. The model was evaluated using metrics such as mean squared error, R-squared, and p-values to determine its accuracy and statistical significance.
+
+> Overall, the findings suggest that linear regression can be an effective method for predicting life expectancy based on social and economic indicators. The study has implications for healthcare policy and international development, as well as for individuals seeking to understand and improve their health outcomes.
+
+<hr>
 
 
----
 
+<b>ABOUT THE DATASET</b>
 
-
-> **ABOUT THE DATASET**
-
-
-
----
-
-
----
+<hr>
 
 
 
@@ -43,95 +42,119 @@
 
 
 
----
+<hr>
+
+<b>PROJECT OVERVIEW</b>
 
 
----
- **PROJECT OVERVIEW**
+<hr>
+The project aims to perform Exploratory Data Analysis (EDA) on the WHO dataset and implement linear regression model to predict the Life Expectancy.
+
+<hr>
+<b>PROJECT OVERVIEW</b>
+
+The project aims to perform Exploratory Data Analysis (EDA) on the WHO dataset and implement linear regression model to predict the Life Expectancy.
+<hr>
+* ABSTRACT
+        - ABOUT THE DATASET
+        - PROJECT OVERVIEW
+        
+* LIFE EXPECTANCY INTRODUCTION
+
+* LIFE EXPECTANCY : DATASET
+
+* UNDERSTANDING LINEAR REGRESSION
+        - Simple Linear Regression
+        - Multiple Linear Regression 
+        - Statistical Formula: Simple Linear Regression 
+        - Statistical Formula: Simple Linear Regression for Predicting Life Expectancy based on GDP
+        - Statistical Formula: Multiple Linear Regression for Predicting Life Expectancy based on GDP, adult_mortality, income....n independant variables
+        - Conclusion
+        
+* IMPORTANT METRICS
+
+* INSTALLATIONS
+
+* IMPORT LIBRARIES
+
+* FUNCTIONS
+        - Function 1 : cleanColumnNames
+        - Function 2 : null_information
+        - Function 3 : get_percent_missing
+        - Function 4 : fill_na
+        - Function 5 : impute_values
+        - Function 6 : statistical_measures
+        - Function 7 : residual_plot
+        - Function 8: partial_dependence_plot
+        - Function 9: prediction
+        
+* READ THE DATA
+
+* CLEANING THE DATA COLUMNS NAMES
+
+* EXPLORATORY DATA ANALYSIS (EDA)
+        - Distribution of Life Expectancy
+        - Correlation Heatmap for dependency Visualization
+        - Plotting Life Expectance vs Adult Mortality for developed and developing countries
+        - Plotting Life Expectance vs GDP for developed and developing countries
+        - Plotting Life Expectance vs Schooling using hex plot
+        - Plotting Life Expectance vs income composition of resources for developed and developing countries using KDE plot
+        - PAIR PLOTS
+        
+* DATA PREPROCESSING
+        - CHECK THE NULL VALUES
+        - IMPUTATION
+        - HANDLING OUTLIERS
+        - PERFORMING ONE-HOT ENCODING ON THE CATEGORICAL DATA COLUMN : STATUS
+        
+* FEATURE ENGINEERING
+        - Q-Q PLOT
+        - Boxplot of the ranges of predictor and dependent variable
+        - PERFORMING NORMALIZATION USING ROBUSTSCALAR
+        - CORRELATION TEST
+        
+* ORDINARY LEAST SQUARE REGRESSION TEST (OLS)
+
+* DISTRIBUTION OF TRAINING DATA
+
+* LINEAR REGRESSION
+
+* PREDICTIONS AND EVALUATION
+
+* Analysis of model with and without Outliers
+
+* CALCULATING MSE AND VARIANCE USING USER-DEFINED FUNCTION AND SCIKIT BUILT-IN FUNCTION
+
+* RESIDUAL PLOT FOR 1%, 5% AND 10% MEAN, MEDIAN, MODE IMPUTATION
+
+* LIFE EXPECTANCY PREDICTION WITH H2O AUTOML
+
+* PERFORMING RIDGE AND LASSO REGULARIZATION
+
+* HYPER-PARAMETER TUNING
+
+* MODEL INTERPRETABILITY
+
+* NEURAL NETWORKS
+
+* XGBOOST
+
+* RANDOM FOREST
+
+* DECISION TREE
+
+* Implementing and Comparing model interpretability methods like LIME and Partial Dependence Plot Analysis
+
+* CONCLUSION
+
+* REFERENCES
+
+* Copyright
+
+<hr>
 
 
----
-
-
-
-> The project aims to perform Exploratory Data Analysis (EDA) on the WHO dataset and implement linear regression model to predict the Life Expectancy.
-
-
-
-1.     **ABSTRACT**
-         *     ABOUT THE DATASET
-         *     PROJECT OVERVIEW
-2.     **LIFE EXPECTANCY INTRODUCTION**
-3.     **LIFE EXPECTANCY : DATASET**
-4.     **UNDERSTANDING LINEAR REGRESSION**
-         *     Simple Linear Regression
-         *     Multiple Linear Regression 
-         *    Statistical Formula: Simple Linear Regression 
-         *     Statistical Formula: Simple Linear Regression for Predicting Life Expectancy based on GDP
-         *    Statistical Formula: Multiple Linear Regression for Predicting Life Expectancy based on GDP, adult_mortality, income....n independant variables
-         *    Conclusion
-5.     **IMPORTANT METRICS**
-6.     **INSTALLATIONS**
-7.     **IMPORT LIBRARIES**
-8.     **FUNCTIONS**
-         *     Function 1 : cleanColumnNames
-         *     Function 2 : null_information
-         *     Function 3 : get_percent_missing
-         *     Function 4 : fill_na
-         *     Function 5 : impute_values
-         *     Function 6 : statistical_measures
-         *    Function 7 : residual_plot
-         *     Function 8: partial_dependence_plot
-         *     Function 9: prediction
-9.     **READ THE DATA**
-10.  **CLEANING THE DATA COLUMNS NAMES**
-11.  **EXPLORATORY DATA ANALYSIS (EDA)**
-        *      Distribution of Life Expectancy
-        *     Correlation Heatmap for dependency Visualization
-        *     Plotting Life Expectance vs Adult Mortality for developed and developing countries
-        *     Plotting Life Expectance vs GDP for developed and developing countries
-        *     Plotting Life Expectance vs Schooling using hex plot
-        *     Plotting Life Expectance vs income composition of resources for developed and developing countries using KDE plot
-        *     PAIR PLOTS
-12.  **DATA PREPROCESSING**
-        *     CHECK THE NULL VALUES
-        *     IMPUTATION
-        *     HANDLING OUTLIERS
-        *    PERFORMING ONE-HOT ENCODING ON THE CATEGORICAL DATA COLUMN : STATUS
-13.  **FEATURE ENGINEERING**
-      *     Q-Q PLOT
-      *     Boxplot of the ranges of predictor and dependent variable
-      *     PERFORMING NORMALIZATION USING ROBUSTSCALAR
-      *     CORRELATION TEST
-14.  **ORDINARY LEAST SQUARE REGRESSION TEST (OLS)**
-15.  **DISTRIBUTION OF TRAINING DATA**
-16.  **LINEAR REGRESSION**
-17.  **PREDICTIONS AND EVALUATION**
-18.  **Analysis of model with and without Outliers**
-19.  **CALCULATING MSE AND VARIANCE USING USER-DEFINED FUNCTION AND SCIKIT BUILT-IN FUNCTION**
-20.  **RESIDUAL PLOT FOR 1%, 5% AND 10% MEAN, MEDIAN, MODE IMPUTATION**
-21.  **LIFE EXPECTANCY PREDICTION WITH H2O AUTOML**
-22.  **PERFORMING RIDGE AND LASSO REGULARIZATION**
-23.  **HYPER-PARAMETER TUNING**
-24.  **MODEL INTERPRETABILITY**
-25.  **NEURAL NETWORKS**
-26.  **XGBOOST**
-27.  **RANDOM FOREST**
-28.  **DECISION TREE**
-29.  **Implementing and Comparing model interpretability methods like LIME and Partial Dependence Plot Analysis**
-30.  **CONCLUSION**
-31.  **REFERENCES**
-32.  **Copyright**
-
----
-
-
----
----
-
-### **CONCLUSION**
----
----
+<b>CONCLUSION</b>
 
 
 
@@ -202,7 +225,7 @@
 
 ---
 ---
-###**REFERENCES**
+<b>REFERENCES</b>
 
 ---
 ---
